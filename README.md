@@ -43,7 +43,7 @@ websites = ["https://wikipedia.org/",
             "https://reddit.com/",
             "https://youtube.com/"]
 ```
-## Install the browser extension
+### Install the browser extension
 
 We use Superagent browser extension to accept cookie policy automatically. Before starting the script, make sure the extension has been installed. "[Folder](https://help.multilogin.com/en_US/profile-management/installing-browser-extensions)" method is recommended for extension installation.
 
