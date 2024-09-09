@@ -1,22 +1,8 @@
 # CookieRobot for Multilogin X
 
-This is a tool for automatically visiting determined websites in order to collect cookies from them. You can either start a quick browser profile to do this, or start an existing browser profile.
+This is a tool for automatically visiting determined websites in order to collect cookies for your browser profiles.
 
-## Considerations
-
-In order to run this automation in an existing browser profile, you should add an extension that automatically consents with cookies, such as SugerAgent or Accept-All-Cookies.
-
-On the other hand, if you want to run the Cookie Robot on quick browser profiles, the script will automatically install the SuperAgent extension and you won't have to worry about it.
-
-## First time? Run in guided mode!
-
-Simply run the script in guided mode, it will prompt you whatever it needs to start.
-
-```bash
-python cookie_robot.py --guided
-```
-
-## Instructions for non-guided mode
+## Instructions
 
 ### Start your Multilogin X agent
 
@@ -39,10 +25,9 @@ Start-Process -FilePath "~/AppData/Local/Multilogin X/agent.exe"
 ```env
 MLX_EMAIL=yourmultiloginaccount@domain.com
 MLX_PASSWORD=SuperSecretPassword
-PROFILE_TYPE=quick
 PROFILE_ID=
 FOLDER_ID=
-BROWSER_TYPE=mimic
+BROWSER_TYPE=
 ```
 ### Edit the websites list
 
